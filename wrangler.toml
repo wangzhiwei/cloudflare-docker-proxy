@@ -33,3 +33,7 @@ route = { pattern = "docker-staging.ponypressx.com", custom_domain = true }
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+# wrangler.toml (wrangler v3.78.6^)
+[observability]
+enabled = true
